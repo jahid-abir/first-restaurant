@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    height: 919px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 1023px;
+
+}
+
+#hero .hero-content .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#hero .hero-content .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn-set {
+    text-align: center;
+}
+
+.cardbox {
+    width: 1320px;
+    margin: 167px auto;
+}
+.cardbox .info{
+  margin-bottom: 48px;
+}
+.cardbox .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .6;
+}
+
+.cardbox .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card{
+   max-width: 424px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.card .img-box{
+    width: 424px;
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .shop{
+    background-color: rgba(82, 195, 3, 0.15);
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+}
+.cardbox .car{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.about-img img{
+    width: 100%;
+}
+.about{
+    display: flex; 
+     justify-content: center; 
+    /* align-items: center;  */
+}
+.text-item{
+   width: 50%;
+}
+.text-item h1{
+    font-size: 50px;
+    text-align: center;
+    margin:136px 65px 24px  ;
+}
+.text-item .p1{ 
+    margin-bottom: 48px;
+    font-size: 24px;
+    opacity: 0.6;
+    text-align: center;
+  
+}
+.text-item .p2{
+    font-size: 32px;
+    padding: 30px;
+   text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon img{
+    padding-right: 15px;
+}
+.end-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.end-card .btn{
+    margin-top: 50px;
+}
+.last-div{
+    height: 671px;
+    background-image: linear-gradient(rgba(250, 239, 239, 0.812),rgba(226, 215, 215, 0.864)), url("../assets/social-bg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
